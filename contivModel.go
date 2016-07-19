@@ -101,6 +101,7 @@ type EndpointGroup struct {
 type EndpointGroupLinkSets struct {
 	ExtContractsGrps map[string]modeldb.Link `json:"ExtContractsGrps,omitempty"`
 	Policies         map[string]modeldb.Link `json:"Policies,omitempty"`
+	Rules            map[string]modeldb.Link `json:"Rules,omitempty"`
 	Services         map[string]modeldb.Link `json:"Services,omitempty"`
 }
 
